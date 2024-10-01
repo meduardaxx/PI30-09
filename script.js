@@ -36,4 +36,4 @@ p1.then( r => r() );
 fetch("https://viacep.com.br/ws/88495000/json")
 .then(dados => dados.json())
 .then(dados => console.log(`Localidade: ${dados.localidade}`))
-.catch(erro => console.error("Deu ruim!))
+.catch(erro => console.error("Deu ruim!"))
